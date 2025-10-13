@@ -42,7 +42,7 @@ bash password_generator.sh
 
 ---
 
-# 3.🛠️automate_task.sh
+# 3.🛠️ Automate_task.sh
 
 ## Description
 `automate_task.sh` is a simple Bash script to automate basic system maintenance on Ubuntu/Debian-based systems. It updates the system, upgrades packages, installs Docker and displays the last 5 lines of system logs.
@@ -61,25 +61,94 @@ bash password_generator.sh
    ./automate_task.sh
 
 ## SAMPLE OUTPUT
-Welcome to automate_task.sh
+=== WELCOME TO automate_task.sh ===
 Script started at: Mon Oct 14 00:00:00 2025
 
+--- SYSTEM UPDATE ---
 Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 
----- Last 5 lines of syslog ----
+--- LAST 5 LINES OF SYSLOG ---
 Oct 14 00:01:23 hostname systemd[1]: Started Daily apt upgrade and clean activities.
 Oct 14 00:01:23 hostname CRON[12345]: (root) CMD (cd / && run-parts --report /etc/cron.daily)
 Oct 14 00:01:23 hostname kernel: [12345.678901] Some kernel message
 Oct 14 00:01:24 hostname systemd[1]: Finished Daily apt upgrade and clean activities.
 Oct 14 00:01:25 hostname CRON[12346]: (root) CMD (run-parts /etc/cron.hourly)
 
+✅ Automation Completed Successfully!
 Done..!!
-Automation complete. Have a great day!
+
 Script ended at: Mon Oct 14 00:02:00 2025
+==============================
+
+---
+
+# 4.📄 Signup_page
+
+## Description
+This is a simple interactive **signup simulation** written in Bash.  
+It asks the user for a name, email, and password, and ensures the password is confirmed correctly.
+
+---
+
+## Features
+- Interactive prompts for user input
+- Password input hidden for security
+- Password confirmation check
+- Clear success/failure messages
+
+---
+
+## How to Run
+1. Give execute permission:
+```bash
+chmod +x signup.sh
+./signup.sh
+
+```
+## Sample Output
+=== WELCOME TO SIGNUP PAGE ===
+
+Enter your name: 
+Shashank
+
+Enter your email address: 
+shashank@example.com
+
+Enter your password: ******
+
+Confirm your password: ******
+
+✅ Signup Successful!
+Name : Shashank
+Email: shashank@example.com
+
+---
+
+Sample Output (Passwords Don’t Match):
+
+=== WELCOME TO SIGNUP PAGE ===
+
+Enter your name: 
+Shashank
+
+Enter your email address: 
+shashank@example.com
+
+Enter your password: ******
+
+Confirm your password: ******
+
+❌ PASSWORDS DO NOT MATCH! Please try again.
+
+
+
+
+
+
 
 
 
