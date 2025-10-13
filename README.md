@@ -20,7 +20,7 @@ It displays the current **time** and **date** in a colorful format, refreshing e
 
 ---
 
-#2.🔐 Simple Password Generator
+# 2.🔐 Simple Password Generator
 
 A simple Bash script that generates secure random passwords using **OpenSSL**.
 
