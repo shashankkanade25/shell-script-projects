@@ -1,0 +1,30 @@
+#!/bin/bash
+
+echo "Welcome To Signup page."
+echo ""
+
+#Read user details
+echo "Please Enter your name:"
+read name
+echo ""
+
+echo "Please Enter your Email address:"
+read email
+echo ""
+
+echo "Please Enter your password:"
+read password
+echo ""
+
+echo "Please confirm your password:"
+read confirm
+echo ""
+
+#check password match
+if [ "$password" == "$confirm" ]; then
+        echo "✅ signup successful!"
+        echo "Name: $name"
+        echo "Email: $email"
+else
+        echo "❌ PASSWORD DO NOT MATCH ! Please try again."
+fi
