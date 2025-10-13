@@ -61,28 +61,11 @@ bash password_generator.sh
    ./automate_task.sh
 
 ## SAMPLE OUTPUT
-=== WELCOME TO automate_task.sh ===
-Script started at: Mon Oct 14 00:00:00 2025
+<img width="2245" height="297" alt="image" src="https://github.com/user-attachments/assets/719b010b-5ea3-48eb-90f6-072db6a2163c" />
 
---- SYSTEM UPDATE ---
-Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
-Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 
---- LAST 5 LINES OF SYSLOG ---
-Oct 14 00:01:23 hostname systemd[1]: Started Daily apt upgrade and clean activities.
-Oct 14 00:01:23 hostname CRON[12345]: (root) CMD (cd / && run-parts --report /etc/cron.daily)
-Oct 14 00:01:23 hostname kernel: [12345.678901] Some kernel message
-Oct 14 00:01:24 hostname systemd[1]: Finished Daily apt upgrade and clean activities.
-Oct 14 00:01:25 hostname CRON[12346]: (root) CMD (run-parts /etc/cron.hourly)
+<img width="2182" height="330" alt="image" src="https://github.com/user-attachments/assets/66781c90-757a-4b54-bea5-6995b9d56565" />
 
-✅ Automation Completed Successfully!
-Done..!!
-
-Script ended at: Mon Oct 14 00:02:00 2025
-==============================
 
 ---
 
