@@ -93,39 +93,12 @@ chmod +x signup.sh
 
 ```
 ## Sample Output
-=== WELCOME TO SIGNUP PAGE ===
+<img width="1489" height="666" alt="image" src="https://github.com/user-attachments/assets/9b520197-d7d9-4278-b70a-91cca3ab3e95" />
 
-Enter your name: 
-Shashank
-
-Enter your email address: 
-shashank@example.com
-
-Enter your password: ******
-
-Confirm your password: ******
-
-✅ Signup Successful!
-Name : Shashank
-Email: shashank@example.com
 
 ---
 
-Sample Output (Passwords Don’t Match):
-
-=== WELCOME TO SIGNUP PAGE ===
-
-Enter your name: 
-Shashank
-
-Enter your email address: 
-shashank@example.com
-
-Enter your password: ******
-
-Confirm your password: ******
-
-❌ PASSWORDS DO NOT MATCH! Please try again.
+<img width="1461" height="642" alt="image" src="https://github.com/user-attachments/assets/23844a1c-3a51-4045-9833-53de033f59c3" />
 
 
 
