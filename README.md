@@ -100,6 +100,39 @@ chmod +x signup.sh
 
 <img width="1461" height="642" alt="image" src="https://github.com/user-attachments/assets/23844a1c-3a51-4045-9833-53de033f59c3" />
 
+---
+
+# 5.🧹 Auto File Cleaner
+
+A simple **Bash script** that automatically deletes files older than a set number of days.  
+Keep your system clean and organized — effortlessly! ⚡
+
+---
+
+## 💡 How It Works
+- Scans all files in the current directory  
+- Compares their last modified date  
+- Deletes files older than **`4 days`**  
+- Prints the deleted file names 🗑️  
+
+---
+
+## 🛠️ Usage
+
+```bash
+chmod +x auto_file_cleaner.sh
+./auto_file_cleaner.sh
+```
+✅Test safely before deleting:
+
+```bash
+echo "$file would be deleted"
+```
+### Sample Output
+<img width="2167" height="300" alt="image" src="https://github.com/user-attachments/assets/f4c75588-1c6c-4507-b80c-46110f3894a0" />
+
+
+
 
 
 
